@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/Progress/OpenEdge116/gui/adeweb.pl" type="ProcedureLibrary" ModificationStamp="1476446633971" FullName="adeweb.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adeweb">
+			<procedure name="_abrunwb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="42" RelativePath="adeweb"></procedure>
+			<procedure name="_automap" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="10036" RelativePath="adeweb"></procedure>
+			<procedure name="_brwsmap" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="160426" RelativePath="adeweb"></procedure>
+			<procedure name="_bstname" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="306125" RelativePath="adeweb"></procedure>
+			<procedure name="_cdread" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="410939" RelativePath="adeweb"></procedure>
+			<procedure name="_chkdtf" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="585415" RelativePath="adeweb"></procedure>
+			<procedure name="_chkfld" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="687003" RelativePath="adeweb"></procedure>
+			<procedure name="_cihttp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="793882" RelativePath="adeweb"></procedure>
+			<procedure name="_comwrap" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="839244" RelativePath="adeweb"></procedure>
+			<procedure name="_dbfsel" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="928905" RelativePath="adeweb"></procedure>
+			<procedure name="_drwhtml" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1093037" RelativePath="adeweb"></procedure>
+			<procedure name="_find-db" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1225752" RelativePath="adeweb"></procedure>
+			<procedure name="_gendefs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1230909" RelativePath="adeweb"></procedure>
+			<procedure name="_genrt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1394440" RelativePath="adeweb"></procedure>
+			<procedure name="_gentt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1510290" RelativePath="adeweb"></procedure>
+			<procedure name="_genweb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1621736" RelativePath="adeweb"></procedure>
+			<procedure name="_genwpg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1788640" RelativePath="adeweb"></procedure>
+			<procedure name="_htmlcol" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="1994124" RelativePath="adeweb"></procedure>
+			<procedure name="_joinext" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2042675" RelativePath="adeweb"></procedure>
+			<procedure name="_loadhtm" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2200117" RelativePath="adeweb"></procedure>
+			<procedure name="_mkwind" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2293654" RelativePath="adeweb"></procedure>
+			<procedure name="_offproc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2417740" RelativePath="adeweb"></procedure>
+			<procedure name="_preproc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2523547" RelativePath="adeweb"></procedure>
+			<procedure name="_qbuild" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2676379" RelativePath="adeweb"></procedure>
+			<procedure name="_rddefs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2791895" RelativePath="adeweb"></procedure>
+			<procedure name="_rdoffd" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="2941074" RelativePath="adeweb"></procedure>
+			<procedure name="_rdoffp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3046650" RelativePath="adeweb"></procedure>
+			<procedure name="_rdproc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3162360" RelativePath="adeweb"></procedure>
+			<procedure name="_rdqury" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3279256" RelativePath="adeweb"></procedure>
+			<procedure name="_readrt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3423630" RelativePath="adeweb"></procedure>
+			<procedure name="_rsdoatt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3569071" RelativePath="adeweb"></procedure>
+			<procedure name="_rsdocol" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3576146" RelativePath="adeweb"></procedure>
+			<procedure name="_runbrws" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3582766" RelativePath="adeweb"></procedure>
+			<procedure name="_trimdsc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3589715" RelativePath="adeweb"></procedure>
+			<procedure name="_unmapal" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3594336" RelativePath="adeweb"></procedure>
+			<procedure name="_webcom" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3700940" RelativePath="adeweb"></procedure>
+			<procedure name="_webfile" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3870548" RelativePath="adeweb"></procedure>
+			<procedure name="_wsaerr" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/adeweb.pl" isInsidePL="true" Offset="3968126" RelativePath="adeweb"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

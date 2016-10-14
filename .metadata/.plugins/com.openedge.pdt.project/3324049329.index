@@ -1,0 +1,405 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/Progress/OpenEdge116/gui/prodict.pl" type="ProcedureLibrary" ModificationStamp="1476446634084" FullName="prodict.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="prodict/odb">
+			<procedure name="odb_fix" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10838204" RelativePath="prodict/odb"></procedure>
+			<procedure name="odb_fprp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10843120" RelativePath="prodict/odb"></procedure>
+			<procedure name="odb_qe" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10847009" RelativePath="prodict/odb"></procedure>
+			<procedure name="protood1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10849999" RelativePath="prodict/odb"></procedure>
+			<procedure name="protoodb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10904042" RelativePath="prodict/odb"></procedure>
+			<procedure name="_beauty" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10973713" RelativePath="prodict/odb"></procedure>
+			<procedure name="_bpullodb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11005880" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odbxnum" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11061616" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_crp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11064491" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_fix" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11172268" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_fld" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11274877" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_get" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11353404" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md0" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11561689" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11589184" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md2" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11661133" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md3" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11717816" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md5" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11777362" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_md9" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11780302" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_pul" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="11812176" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_sdb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12107473" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_sys" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12194677" RelativePath="prodict/odb"></procedure>
+			<procedure name="_odb_typ" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12206093" RelativePath="prodict/odb"></procedure>
+			<procedure name="_sndinfo" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12236239" RelativePath="prodict/odb"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12278787" RelativePath="prodict/odb"></procedure>
+		</relative>
+		<relative path="prodict/mss/key">
+			<procedure name="constraint" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10381957" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="del_con" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10570579" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="modcons" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10578380" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="_msc_act" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10747437" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="_msc_del" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10776430" RelativePath="prodict/mss/key"></procedure>
+			<procedure name="_msc_viw" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10796259" RelativePath="prodict/mss/key"></procedure>
+		</relative>
+		<relative path="prodict/pro">
+			<procedure name="_alt-buf-driver" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15169108" RelativePath="prodict/pro"></procedure>
+			<procedure name="_alt-buf-edit" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15191037" RelativePath="prodict/pro"></procedure>
+			<procedure name="_alt-buf-sel" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15276230" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_area_list" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15627403" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_domain_list" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15636392" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_fld" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15640942" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_int64" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15799622" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_mt_seq" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15821234" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_mt_tbl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15855844" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_sql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15878585" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_sys" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15911687" RelativePath="prodict/pro"></procedure>
+			<procedure name="_pro_typ" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15915920" RelativePath="prodict/pro"></procedure>
+		</relative>
+		<relative path="prodict/dump">
+			<procedure name="testdump" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1007388" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmp5cvt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1008264" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpasci" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1068988" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpaudp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1103215" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpbulk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1143857" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpdata" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1178437" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpdefs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1267920" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpdiff" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1418620" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpincr" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1451409" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpisub" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1813139" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpsddl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1874077" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpsec" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="1945861" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpseqs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2066289" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpsylk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2094188" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpuser" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2121974" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmputil" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2138984" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpv5df" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2201487" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmpview" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2231595" RelativePath="prodict/dump"></procedure>
+			<procedure name="_dmp_raw" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2250925" RelativePath="prodict/dump"></procedure>
+			<procedure name="_exptbln" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2254833" RelativePath="prodict/dump"></procedure>
+			<procedure name="_exptblnap" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2264138" RelativePath="prodict/dump"></procedure>
+			<procedure name="_impbln" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2272025" RelativePath="prodict/dump"></procedure>
+			<procedure name="_impblnap" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2286674" RelativePath="prodict/dump"></procedure>
+			<procedure name="_load_df" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2293107" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodasci" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2350312" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodaudp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2375520" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loddata" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2420054" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loddbff" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2545884" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loddiff" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2571804" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodfini" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2616129" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodname" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2679447" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsdbf" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2698610" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsddl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="2747641" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsec" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3216823" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodseqs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3323843" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodsylk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3352136" RelativePath="prodict/dump"></procedure>
+			<procedure name="_loduser" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3382774" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodv5df" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3413134" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lodview" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3480240" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_con" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3517919" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_dbs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3600604" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_fil" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3706742" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_fld" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3828423" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_idx" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="3967657" RelativePath="prodict/dump"></procedure>
+			<procedure name="_lod_seq" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4067659" RelativePath="prodict/dump"></procedure>
+		</relative>
+		<relative path="prodict/sec">
+			<procedure name="_cascrvk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15982314" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-dom" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16040687" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-gen-key" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16262394" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-obj-sel" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16293095" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-perm" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16377869" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-pol-driver" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16588010" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-pol-edit" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16611931" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-pol-hist" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16715675" RelativePath="prodict/sec"></procedure>
+			<procedure name="_sec-sys" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="16878506" RelativePath="prodict/sec"></procedure>
+		</relative>
+		<relative path="prodict/mss">
+			<procedure name="deltaconnect" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7127771" RelativePath="prodict/mss"></procedure>
+			<procedure name="deltasql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7162259" RelativePath="prodict/mss"></procedure>
+			<procedure name="genrowid" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7234726" RelativePath="prodict/mss"></procedure>
+			<procedure name="mss_fix" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7282103" RelativePath="prodict/mss"></procedure>
+			<procedure name="mss_qe" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7287019" RelativePath="prodict/mss"></procedure>
+			<procedure name="procbfrpul" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7290009" RelativePath="prodict/mss"></procedure>
+			<procedure name="protoms1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7300331" RelativePath="prodict/mss"></procedure>
+			<procedure name="protomss" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7402165" RelativePath="prodict/mss"></procedure>
+			<procedure name="protomss1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7490040" RelativePath="prodict/mss"></procedure>
+			<procedure name="schconnect" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7549911" RelativePath="prodict/mss"></procedure>
+			<procedure name="schmsstopro" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7637245" RelativePath="prodict/mss"></procedure>
+			<procedure name="schpullmss" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7673280" RelativePath="prodict/mss"></procedure>
+			<procedure name="_beauty" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7763403" RelativePath="prodict/mss"></procedure>
+			<procedure name="_clrank" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7802112" RelativePath="prodict/mss"></procedure>
+			<procedure name="_cnrank" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7855218" RelativePath="prodict/mss"></procedure>
+			<procedure name="_ctestr" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7941142" RelativePath="prodict/mss"></procedure>
+			<procedure name="_gendsql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="8050297" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mssschg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="8856959" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_crp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="8917614" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_crs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9045661" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_fix" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9046537" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_get" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9176789" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_gid" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9361227" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_inc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9399645" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md0" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9466039" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9498754" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md2" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9577383" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md5" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9639510" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_md9" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9642450" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_nseqpul" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9679540" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_pul" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="9680416" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_sdb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10021203" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_sys" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10109410" RelativePath="prodict/mss"></procedure>
+			<procedure name="_mss_typ" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10120886" RelativePath="prodict/mss"></procedure>
+			<procedure name="_rankpdb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10164614" RelativePath="prodict/mss"></procedure>
+			<procedure name="_sndinfo" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10273942" RelativePath="prodict/mss"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="10316442" RelativePath="prodict/mss"></procedure>
+		</relative>
+		<relative path="prodict/ora/key">
+			<procedure name="constraint" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14823454" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="modcons" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14957136" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="_orc_act" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15081519" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="_orc_del" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15107631" RelativePath="prodict/ora/key"></procedure>
+			<procedure name="_orc_viw" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="15124812" RelativePath="prodict/ora/key"></procedure>
+		</relative>
+		<relative path="prodict/aud">
+			<procedure name="_aud-pol" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="937096" RelativePath="prodict/aud"></procedure>
+		</relative>
+		<relative path="prodict/ora">
+			<procedure name="protoor1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12344302" RelativePath="prodict/ora"></procedure>
+			<procedure name="protoora" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12394163" RelativePath="prodict/ora"></procedure>
+			<procedure name="_beauty" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12470922" RelativePath="prodict/ora"></procedure>
+			<procedure name="_bpullora" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12499617" RelativePath="prodict/ora"></procedure>
+			<procedure name="_gendsql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="12554888" RelativePath="prodict/ora"></procedure>
+			<procedure name="_get_orauser" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13244619" RelativePath="prodict/ora"></procedure>
+			<procedure name="_get_oraver" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13248172" RelativePath="prodict/ora"></procedure>
+			<procedure name="_oraload" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13251962" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_als" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13356258" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cra" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13364598" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13384681" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13399681" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cri" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13410985" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13417496" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13423425" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crm" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13438037" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crn" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13444062" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cro" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13460762" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13469247" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crs" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13470432" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_crt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13478766" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_cru" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13496569" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_fix" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13501689" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_fld" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13612290" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_inc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13652976" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lk0" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13699718" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13760342" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13790306" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13862261" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lks" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="13928444" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkx" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14022315" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_lkz" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14054840" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md0" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14092415" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14121182" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md2" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14194321" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md3" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14223015" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md5" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14258321" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_md9" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14260320" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_nlsvld" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14293348" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_prc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14315341" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_pul" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14428304" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_sys" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14643246" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_typ" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14661228" RelativePath="prodict/ora"></procedure>
+			<procedure name="_ora_vts" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14692478" RelativePath="prodict/ora"></procedure>
+			<procedure name="_protoora" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14717355" RelativePath="prodict/ora"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="14760155" RelativePath="prodict/ora"></procedure>
+		</relative>
+		<relative path="prodict/misc">
+			<procedure name="osappend" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5836774" RelativePath="prodict/misc"></procedure>
+			<procedure name="osdbfutl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5838883" RelativePath="prodict/misc"></procedure>
+			<procedure name="osprefix" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5845100" RelativePath="prodict/misc"></procedure>
+			<procedure name="osquoter" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5848835" RelativePath="prodict/misc"></procedure>
+			<procedure name="ostodir" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5856252" RelativePath="prodict/misc"></procedure>
+			<procedure name="_clproto" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5889036" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-chgid" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5892088" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-id-hst" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5925264" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-id-mnt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5978225" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-lkey" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6028164" RelativePath="prodict/misc"></procedure>
+			<procedure name="_db-optn" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6040019" RelativePath="prodict/misc"></procedure>
+			<procedure name="_del-db" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6075365" RelativePath="prodict/misc"></procedure>
+			<procedure name="_dirbtn" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6083058" RelativePath="prodict/misc"></procedure>
+			<procedure name="_eventhandler" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6085543" RelativePath="prodict/misc"></procedure>
+			<procedure name="_filebtn" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6087934" RelativePath="prodict/misc"></procedure>
+			<procedure name="_getconp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6091328" RelativePath="prodict/misc"></procedure>
+			<procedure name="_prt_rpt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6111026" RelativePath="prodict/misc"></procedure>
+			<procedure name="_resxlat" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6214240" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptaltbuf" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6228625" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptaqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6253725" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptaud" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6271462" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptencp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6321736" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptflds" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6347868" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptfqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6366722" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptiqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6385767" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptrels" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6404048" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptsqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6422377" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rpttqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6440274" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rpttrig" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6458171" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptuqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6476068" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptvqik" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6493965" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptwdat" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6511974" RelativePath="prodict/misc"></procedure>
+			<procedure name="_rptwdth" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6547079" RelativePath="prodict/misc"></procedure>
+			<procedure name="_tstsh" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6565288" RelativePath="prodict/misc"></procedure>
+			<procedure name="_valsch" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6567380" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkcgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6576338" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkfgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6602497" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkfnum" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6636265" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrktgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="6662606" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkvgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7063038" RelativePath="prodict/misc"></procedure>
+			<procedure name="_wrkwgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="7095673" RelativePath="prodict/misc"></procedure>
+		</relative>
+		<relative path="prodict/gui">
+			<procedure name="_closqlw" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5007335" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guiauto" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5020958" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guifixd" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5083181" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guigge1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5115460" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guigget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5200979" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guipfed" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5278377" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guipick" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5315969" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guisecu" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5370913" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guisget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5446108" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guisqlw" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5500403" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guitget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5565236" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guiuchg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5655484" RelativePath="prodict/gui"></procedure>
+			<procedure name="_guivget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5740888" RelativePath="prodict/gui"></procedure>
+			<procedure name="_savwidt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5782555" RelativePath="prodict/gui"></procedure>
+		</relative>
+		<relative path="prodict/gate">
+			<procedure name="beauty1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4148536" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gatxnum" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4151020" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_atg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4154075" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cmp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4157330" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_con" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4439328" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cp" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4466839" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cp1" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4511102" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_cro" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4537285" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_drv" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4764426" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_fnm" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4793334" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_ini" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4837714" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_nam" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4892203" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_prt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4898605" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_row" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4920495" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_trg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4994274" RelativePath="prodict/gate"></procedure>
+			<procedure name="_gat_xlt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="4999384" RelativePath="prodict/gate"></procedure>
+			<procedure name="_snd_sql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="5002455" RelativePath="prodict/gate"></procedure>
+		</relative>
+		<relative path="prodict/user">
+			<procedure name="_usershw" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17064032" RelativePath="prodict/user"></procedure>
+			<procedure name="_usradmn" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17107859" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrauto" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17149456" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrblnk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17215981" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrcgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17241864" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrcold" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17272780" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrdbox" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17305451" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrdump" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17307738" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrebox" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17688147" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrexpo" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17690032" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfchg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17786433" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfcpy" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17787309" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17857603" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfglo" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17893516" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfixd" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17953823" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrfnum" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17967246" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrftrg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="17996653" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrgget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18030380" RelativePath="prodict/user"></procedure>
+			<procedure name="_usriact" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18106877" RelativePath="prodict/user"></procedure>
+			<procedure name="_usriadd" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18158161" RelativePath="prodict/user"></procedure>
+			<procedure name="_usribro" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18237725" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrichg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18275879" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrimpo" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18431623" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrincr" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18560915" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrinf2" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18638969" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrinf3" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18682561" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrinfo" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18689410" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrkchg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18706926" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrload" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="18724463" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrlrec" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19074744" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrpfed" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19116337" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrpick" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19189996" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrprdb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19249346" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrpwd2" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19260699" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrquot" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19277774" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrschg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19391527" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrscon" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19454743" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsdbf" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19489245" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsdel" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19559790" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsecu" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19598641" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrsget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19664971" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtchg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19725221" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtdel" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19726097" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19783413" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtget-tt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19887489" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="19970671" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtrax" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20048501" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrtrig" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20079712" RelativePath="prodict/user"></procedure>
+			<procedure name="_usruchg" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20103108" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrupwd" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20191751" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrvgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20221511" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrvget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20268173" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrwdth" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20306915" RelativePath="prodict/user"></procedure>
+			<procedure name="_usrwgen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20355848" RelativePath="prodict/user"></procedure>
+			<procedure name="_usr_dif" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20387409" RelativePath="prodict/user"></procedure>
+			<procedure name="_usr_gsl" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="20426423" RelativePath="prodict/user"></procedure>
+		</relative>
+		<relative path="prodict">
+			<procedure name="dmpseqvals" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="42" RelativePath="prodict"></procedure>
+			<procedure name="dump_d" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="32775" RelativePath="prodict"></procedure>
+			<procedure name="dump_df" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="106208" RelativePath="prodict"></procedure>
+			<procedure name="dump_fd" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="154034" RelativePath="prodict"></procedure>
+			<procedure name="dump_inc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="171563" RelativePath="prodict"></procedure>
+			<procedure name="load_d" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="244646" RelativePath="prodict"></procedure>
+			<procedure name="load_df" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="312786" RelativePath="prodict"></procedure>
+			<procedure name="load_df_silent" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="316584" RelativePath="prodict"></procedure>
+			<procedure name="load_seq" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="321992" RelativePath="prodict"></procedure>
+			<procedure name="send_sql" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="361686" RelativePath="prodict"></procedure>
+			<procedure name="upd_sch" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="366956" RelativePath="prodict"></procedure>
+			<procedure name="_dctadmn" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="372096" RelativePath="prodict"></procedure>
+			<procedure name="_dctalia" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="380205" RelativePath="prodict"></procedure>
+			<procedure name="_dctcach" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="382127" RelativePath="prodict"></procedure>
+			<procedure name="_dctexec" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="410657" RelativePath="prodict"></procedure>
+			<procedure name="_dctexen" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="452457" RelativePath="prodict"></procedure>
+			<procedure name="_dctgues" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="482708" RelativePath="prodict"></procedure>
+			<procedure name="_dctlrec" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="522975" RelativePath="prodict"></procedure>
+			<procedure name="_dctname" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="547572" RelativePath="prodict"></procedure>
+			<procedure name="_dctquot" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="550410" RelativePath="prodict"></procedure>
+			<procedure name="_dctscnt" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="553288" RelativePath="prodict"></procedure>
+			<procedure name="_dctsget" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="557958" RelativePath="prodict"></procedure>
+			<procedure name="_dctsset" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="571551" RelativePath="prodict"></procedure>
+			<procedure name="_dctsylk" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="595072" RelativePath="prodict"></procedure>
+			<procedure name="_dctyear" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="602928" RelativePath="prodict"></procedure>
+			<procedure name="_dictc" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="604434" RelativePath="prodict"></procedure>
+			<procedure name="_dictdb" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" isInsidePL="true" Offset="933686" RelativePath="prodict"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+		<pacakage name="prodict.sec">
+			<class name="prodict.sec._sec-pol-util" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="16756489"></class>
+		</pacakage>
+		<pacakage name="prodict.pro">
+			<class name="prodict.pro._domain-model" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-model" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15341257"></class>
+			<class name="prodict.pro._domain-sel-browse" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.misc._browse" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15360193"></class>
+			<class name="prodict.pro._domain-sel-nonmt-browse" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.misc._browse" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15382432"></class>
+			<class name="prodict.pro._domain-sel-presenter" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-presenter" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15404582"></class>
+			<class name="prodict.pro._imodel" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15411610"></class>
+			<class name="prodict.pro._ipresenter" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15417099"></class>
+			<class name="prodict.pro._iview" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15424742"></class>
+			<class name="prodict.pro._obj-attrib-util" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15431864"></class>
+			<class name="prodict.pro._pro-model" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.pro._imodelæ" ImportedPackages="" isInsidePL="true" Offset="15545906"></class>
+			<class name="prodict.pro._pro-presenter" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="true" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.pro._ipresenteræ" ImportedPackages="" isInsidePL="true" Offset="15568822"></class>
+			<class name="prodict.pro._pro-sel-dialog-gui" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-sel-dialog" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15588244"></class>
+			<class name="prodict.pro._pro-sel-dialog-tty" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-sel-dialog" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15599567"></class>
+			<class name="prodict.pro._pro-sel-dialog" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.pro._iviewæprodict.misc._iwidgethandleræ" ImportedPackages="" isInsidePL="true" Offset="15607475"></class>
+			<class name="prodict.pro._tenant-model" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-model" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15927520"></class>
+			<class name="prodict.pro._tenant-sel-browse" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.misc._browse" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15949893"></class>
+			<class name="prodict.pro._tenant-sel-presenter" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="prodict.pro._pro-presenter" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="15975753"></class>
+		</pacakage>
+		<pacakage name="prodict.dump">
+			<class name="prodict.dump._load_logger" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.DataAdmin.Binding.DataDefinitionLoader" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="2342302"></class>
+			<class name="prodict.dump._load_options" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.DataAdmin.Binding.DataDefinitionOptions" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="2345424"></class>
+		</pacakage>
+		<pacakage name="prodict.misc">
+			<class name="prodict.misc._browse" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="prodict.misc._iwidgethandleræ" ImportedPackages="" isInsidePL="true" Offset="5858894"></class>
+			<class name="prodict.misc._iwidgethandler" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="true" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="6108941"></class>
+			<class name="prodict.misc._query" SourceFilePath="" RfilePath="C:/Progress/OpenEdge116/gui/prodict.pl" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Lang.Object" InterfaceNames="" ImportedPackages="" isInsidePL="true" Offset="6147461"></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

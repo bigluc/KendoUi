@@ -1,0 +1,20 @@
+!SESSION 2016-10-14 13:54:59.368 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY com.openedge.pdt.core 4 20001 2016-10-14 14:03:36.348
+!MESSAGE An internal error occurred
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at com.openedge.core.runtime.AVMConnection.readIncomingMessage(AVMConnection.java:95)
+	at com.openedge.core.runtime.AVMConnection$1.run(AVMConnection.java:425)
+	at java.lang.Thread.run(Thread.java:744)
