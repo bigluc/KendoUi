@@ -1,6 +1,10 @@
 <?xml version="1.0" ?>
-<libraryinfo path="C:/Github/KendoUi/Derivaat" type="PathEntry" ModificationStamp="1476446634095" FullName="Derivaat" lib_header_magic_number="2384638594569" lib_header_version="15">
+<libraryinfo path="C:/Github/KendoUi/Derivaat" type="PathEntry" ModificationStamp="1476725801036" FullName="Derivaat" lib_header_magic_number="2384638594569" lib_header_version="15">
 	<procedures>
+		<relative path="AppServer">
+			<procedure name="adrclibe" SourceFilePath="C:/Github/KendoUi/Derivaat/AppServer/adrclibe.i" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/adrclibe.r"></procedure>
+			<procedure name="adrclibe" SourceFilePath="" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/adrclibe.r"></procedure>
+		</relative>
 	</procedures>
 	<classes>
 	</classes>

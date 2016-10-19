@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/databaseConnection.xsd">
+<databaseconnection identifier="driver">
+<name>driver</name>
+<description/>
+<physicalname>Db\driver.db</physicalname>
+<logicalname/>
+<aliases/>
+<group/>
+<host>localhost</host>
+<service>1125</service>
+<userID/>
+<password/>
+<connectionparameters/>
+<SQLIdentifier>-30843041:157d37644ae:54a</SQLIdentifier>
+<autoStartServer>true</autoStartServer>
+<serverParameters>-db Db\driver.db -S 1125 </serverParameters>
+<autoShutdownServer>false</autoShutdownServer>
+<OEVersion>11.6</OEVersion>
+</databaseconnection>
+</root>

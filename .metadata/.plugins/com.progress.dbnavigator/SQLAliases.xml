@@ -1,1 +1,20 @@
-<Beans/>
+<Beans>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLAlias">
+        <autoLogon>true</autoLogon>
+        <connectAtStartup>false</connectAtStartup>
+        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-27</string>
+        </driverIdentifier>
+        <driverProperties Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriverPropertyCollection">
+            <driverProperties Indexed="true"/>
+        </driverProperties>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-30843041:157d37644ae:54a</string>
+        </identifier>
+        <name>driver</name>
+        <password/>
+        <url>jdbc:datadirect:openedge://localhost:1125;databaseName=driver.db</url>
+        <useDriverProperties>false</useDriverProperties>
+        <userName>Luc</userName>
+    </Bean>
+</Beans>

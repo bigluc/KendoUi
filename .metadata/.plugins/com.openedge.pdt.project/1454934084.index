@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/Github/KendoUi/Derivaat/AppServer" type="PathEntry" ModificationStamp="1476725801012" FullName="AppServer" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="">
+			<procedure name="adrclibe" SourceFilePath="C:/Github/KendoUi/Derivaat/AppServer/adrclibe.i" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/adrclibe.r"></procedure>
+			<procedure name="adrclibe" SourceFilePath="" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/adrclibe.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+		<pacakage name="">
+			<class name="SigncliBE" SourceFilePath="C:/Github/KendoUi/Derivaat/AppServer/SigncliBE.cls" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/SigncliBE.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.BusinessLogic.BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="AdrcliBE" SourceFilePath="C:/Github/KendoUi/Derivaat/AppServer/AdrcliBE.cls" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/AdrcliBE.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.BusinessLogic.BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+			<class name="WebcliBE" SourceFilePath="C:/Github/KendoUi/Derivaat/AppServer/WebcliBE.cls" RfilePath="C:/Github/KendoUi/Derivaat/AppServer/WebcliBE.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.BusinessLogic.BusinessEntity" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+	</classes>
+</libraryinfo>
