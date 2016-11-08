@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<ProDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" xmlns:prodata="urn:schemas-progress-com:xml-prodata:0001">
+    <xsd:element name="ProDataSet" prodata:proDataSet="true">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="Screens" minOccurs="0" maxOccurs="unbounded">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                <xsd:element name="rscre" type="xsd:int" nillable="true"/>
+                <xsd:element name="cscre" type="xsd:string" nillable="true"/>
+                <xsd:element name="nscre" type="xsd:string" nillable="true"/>
+                <xsd:element name="rtypescre" type="xsd:string" nillable="true" default="S"/>
+                <xsd:element name="ntitl" type="xsd:string" nillable="true"/>
+                <xsd:element name="cpagi" type="xsd:string" nillable="true" default="N"/>
+                <xsd:element name="escre" type="xsd:string" nillable="true"/>
+                <xsd:element name="dcrea" type="xsd:date" nillable="true" prodata:initial="prodata:today"/>
+                <xsd:element name="tcrea" type="xsd:int" nillable="true"/>
+                <xsd:element name="dmodi" type="xsd:date" nillable="true" prodata:initial="prodata:today"/>
+                <xsd:element name="tmodi" type="xsd:int" nillable="true"/>
+                <xsd:element name="lsing" type="xsd:boolean" nillable="true"/>
+                <xsd:element name="icoloback" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="icolofore" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="ifont" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="arow_page" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="acolupage" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="iwidt" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="iheig" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="awidtpage" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="aheigpage" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="cflag" type="xsd:string" nillable="true"/>
+                <xsd:element name="rusercrea" type="xsd:string" nillable="true"/>
+                <xsd:element name="rusermodi" type="xsd:string" nillable="true"/>
+                <xsd:element name="rapplmenu" type="xsd:string" nillable="true"/>
+                <xsd:element name="cmenu" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                <xsd:element name="lcach" type="xsd:boolean" nillable="true"/>
+                <xsd:element name="lresi" type="xsd:boolean" nillable="true"/>
+                <xsd:element name="Screentranslation" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                      <xsd:element name="rscre" type="xsd:int" nillable="true"/>
+                      <xsd:element name="rlang" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                      <xsd:element name="ntitl" type="xsd:string" nillable="true"/>
+                      <xsd:element name="ltranchec" type="xsd:boolean" nillable="true"/>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:unique name="rapplcscre">
+        <xsd:selector xpath=".//Screens"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="cscre"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrscre" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//Screens"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rscre"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrscrerlang" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//Screentranslation"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rscre"/>
+        <xsd:field xpath="rlang"/>
+      </xsd:unique>
+    </xsd:element>
+    <xsd:annotation>
+      <xsd:appinfo>
+        <prodata:relation name="RELATION1" prodata:nested="true" prodata:parent="Screens" prodata:child="Screentranslation" prodata:relationFields="rscre,rscre"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+  </xsd:schema>
+  <Screens>
+    <rappl>DV</rappl>
+    <rscre>1814</rscre>
+    <cscre>wiSignCli_GE_2</cscre>
+    <nscre/>
+    <rtypescre>S</rtypescre>
+    <ntitl>Gestion Client</ntitl>
+    <cpagi>T</cpagi>
+    <escre/>
+    <dcrea>2009-11-06</dcrea>
+    <tcrea>1215</tcrea>
+    <dmodi>2016-10-17</dmodi>
+    <tmodi>1438</tmodi>
+    <lsing>true</lsing>
+    <icoloback xsi:nil="true"/>
+    <icolofore xsi:nil="true"/>
+    <ifont xsi:nil="true"/>
+    <arow_page>7.76</arow_page>
+    <acolupage>30.00</acolupage>
+    <iwidt xsi:nil="true"/>
+    <iheig xsi:nil="true"/>
+    <awidtpage xsi:nil="true"/>
+    <aheigpage xsi:nil="true"/>
+    <cflag/>
+    <rusercrea>geegun</rusercrea>
+    <rusermodi>lucoom</rusermodi>
+    <rapplmenu/>
+    <cmenu xsi:nil="true"/>
+    <lcach>false</lcach>
+    <lresi>true</lresi>
+    <Screentranslation>
+      <rappl>DV</rappl>
+      <rscre>1814</rscre>
+      <rlang>DE</rlang>
+      <ntitl>Gestion Client - new screen</ntitl>
+      <ltranchec>false</ltranchec>
+    </Screentranslation>
+    <Screentranslation>
+      <rappl>DV</rappl>
+      <rscre>1814</rscre>
+      <rlang>EN</rlang>
+      <ntitl>Gestion Client - new screen</ntitl>
+      <ltranchec>false</ltranchec>
+    </Screentranslation>
+    <Screentranslation>
+      <rappl>DV</rappl>
+      <rscre>1814</rscre>
+      <rlang>FR</rlang>
+      <ntitl>Gestion client</ntitl>
+      <ltranchec>false</ltranchec>
+    </Screentranslation>
+    <Screentranslation>
+      <rappl>DV</rappl>
+      <rscre>1814</rscre>
+      <rlang>NL</rlang>
+      <ntitl>Beheer klant</ntitl>
+      <ltranchec>false</ltranchec>
+    </Screentranslation>
+  </Screens>
+</ProDataSet>
