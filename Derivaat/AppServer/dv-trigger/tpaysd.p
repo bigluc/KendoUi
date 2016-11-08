@@ -1,0 +1,4 @@
+TRIGGER PROCEDURE FOR DELETE OF tPays.
+
+{tpaysd.i}
+

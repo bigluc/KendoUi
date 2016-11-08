@@ -1,0 +1,1 @@
+{logsuprec.i &TableName=tPays} /* DRV-7641 05-08-2016 */
