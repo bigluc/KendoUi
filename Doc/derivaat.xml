@@ -36,7 +36,7 @@
                 <xsd:element name="cmenu" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
                 <xsd:element name="lcach" type="xsd:boolean" nillable="true"/>
                 <xsd:element name="lresi" type="xsd:boolean" nillable="true"/>
-                <xsd:element name="Screentranslation" minOccurs="0" maxOccurs="unbounded">
+                <xsd:element name="ScreensTranslation" minOccurs="0" maxOccurs="unbounded">
                   <xsd:complexType>
                     <xsd:sequence>
                       <xsd:element name="rappl" type="xsd:string" nillable="true"/>
@@ -44,6 +44,151 @@
                       <xsd:element name="rlang" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
                       <xsd:element name="ntitl" type="xsd:string" nillable="true"/>
                       <xsd:element name="ltranchec" type="xsd:boolean" nillable="true"/>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="Pages" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                      <xsd:element name="rscre" type="xsd:int" nillable="true"/>
+                      <xsd:element name="rpage" type="xsd:int" nillable="true"/>
+                      <xsd:element name="ntitl" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                      <xsd:element name="epage" type="xsd:string" nillable="true"/>
+                      <xsd:element name="ctypepage" type="xsd:string" nillable="true" default="N"/>
+                      <xsd:element name="ctypecomm" type="xsd:string" nillable="true"/>
+                      <xsd:element name="PagesTtranslations" minOccurs="0" maxOccurs="unbounded">
+                        <xsd:complexType>
+                          <xsd:sequence>
+                            <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                            <xsd:element name="rscre" type="xsd:int" nillable="true"/>
+                            <xsd:element name="rpage" type="xsd:int" nillable="true"/>
+                            <xsd:element name="rlang" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="ntitl" type="xsd:string" nillable="true"/>
+                            <xsd:element name="ltranchec" type="xsd:boolean" nillable="true"/>
+                          </xsd:sequence>
+                        </xsd:complexType>
+                      </xsd:element>
+                      <xsd:element name="PageInstance" minOccurs="0" maxOccurs="unbounded">
+                        <xsd:complexType>
+                          <xsd:sequence>
+                            <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                            <xsd:element name="rscre" type="xsd:int" nillable="true"/>
+                            <xsd:element name="rinst" type="xsd:int" nillable="true"/>
+                            <xsd:element name="rorde" type="xsd:int" nillable="true"/>
+                            <xsd:element name="robje" type="xsd:int" nillable="true"/>
+                            <xsd:element name="ntitl" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="idown" type="xsd:int" nillable="true" default="9"/>
+                            <xsd:element name="rpage" type="xsd:int" nillable="true"/>
+                            <xsd:element name="esele" type="xsd:string" nillable="true"/>
+                            <xsd:element name="nfieldownup" type="xsd:string" nillable="true"/>
+                            <xsd:element name="lfiltfirs" type="xsd:boolean" nillable="true"/>
+                            <xsd:element name="crend" type="xsd:string" nillable="true"/>
+                            <xsd:element name="irecomax" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="smap" type="xsd:string" nillable="true"/>
+                            <xsd:element name="rordepare" type="xsd:int" nillable="true"/>
+                            <xsd:element name="llabe" type="xsd:boolean" nillable="true" default="true"/>
+                            <xsd:element name="rinstrefr" type="xsd:int" nillable="true"/>
+                            <xsd:element name="einst" type="xsd:string" nillable="true"/>
+                            <xsd:element name="awidt" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="aheig" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="icolofore" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="ifont" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="arow" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="acolu" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="icoloupda" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="ifonttitl" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="icolotitl" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                            <xsd:element name="rinstgrou" type="xsd:int" nillable="true"/>
+                            <xsd:element name="lfiltfirsrequ" type="xsd:boolean" nillable="true"/>
+                            <xsd:element name="cflag" type="xsd:string" nillable="true"/>
+                            <xsd:element name="rtypeobjesub" type="xsd:string" nillable="true" default="N"/>
+                            <xsd:element name="rapplscreextr" type="xsd:string" nillable="true"/>
+                            <xsd:element name="cscreextr" type="xsd:string" nillable="true"/>
+                            <xsd:element name="ctypescreextr" type="xsd:string" nillable="true" default="D"/>
+                            <xsd:element name="lbatc" type="xsd:boolean" nillable="true"/>
+                            <xsd:element name="Pageobject" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:sequence>
+                                  <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="robje" type="xsd:int" nillable="true"/>
+                                  <xsd:element name="cobje" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="nobje" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="ntitl" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rtypeobje" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rtypeobjesub" type="xsd:string" nillable="true" default="N"/>
+                                  <xsd:element name="rpart" type="xsd:int" nillable="true" default="1"/>
+                                  <xsd:element name="esele" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="esort" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="irecomax" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                                  <xsd:element name="dcrea" type="xsd:date" nillable="true" prodata:initial="prodata:today"/>
+                                  <xsd:element name="tcrea" type="xsd:int" nillable="true"/>
+                                  <xsd:element name="dmodi" type="xsd:date" nillable="true" prodata:initial="prodata:today"/>
+                                  <xsd:element name="tmodi" type="xsd:int" nillable="true"/>
+                                  <xsd:element name="eobje" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="cflag" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rusercrea" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rusermodi" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rapplquer" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="cscrequer" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rinstquer" type="xsd:int" nillable="true"/>
+                                  <xsd:element name="rappldoma" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="cscredoma" type="xsd:string" nillable="true"/>
+                                  <xsd:element name="rinstdoma" type="xsd:int" nillable="true"/>
+                                  <xsd:element name="Pagefielobject" minOccurs="0" maxOccurs="unbounded">
+                                    <xsd:complexType>
+                                      <xsd:sequence>
+                                        <xsd:element name="rfiel" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="rappl" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="robje" type="xsd:int" nillable="true"/>
+                                        <xsd:element name="nfiel" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="nfieluniq" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="arow" type="xsd:decimal" nillable="true" default="1.0"/>
+                                        <xsd:element name="acolu" type="xsd:decimal" nillable="true" default="1.0"/>
+                                        <xsd:element name="ldisp" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="lmodi" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="lcrea" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="lassi" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="nlabe" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="nform" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="awidt" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="aheig" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="ifont" type="xsd:int" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="nhelp" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="eviewas" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="cdata" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="ninit" type="xsd:string" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="lmand" type="xsd:boolean" nillable="true"/>
+                                        <xsd:element name="lzoom" type="xsd:boolean" nillable="true"/>
+                                        <xsd:element name="acoluzoom" type="xsd:decimal" nillable="true" prodata:initial="prodata:unknown"/>
+                                        <xsd:element name="rapplzoom" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="cscrezoom" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="sassi" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="lfilt" type="xsd:boolean" nillable="true"/>
+                                        <xsd:element name="cfilt" type="xsd:string" nillable="true" default="AUTOMATIC"/>
+                                        <xsd:element name="ckey" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="efiel" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="ilenglabe" type="xsd:int" nillable="true" default="16"/>
+                                        <xsd:element name="lsortinit" type="xsd:boolean" nillable="true"/>
+                                        <xsd:element name="cflag" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="iordetab" type="xsd:int" nillable="true"/>
+                                        <xsd:element name="lscre" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="lrepo" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="lexpo" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="lauto" type="xsd:boolean" nillable="true"/>
+                                        <xsd:element name="nfielkey" type="xsd:string" nillable="true"/>
+                                        <xsd:element name="ldictinit" type="xsd:boolean" nillable="true" default="true"/>
+                                        <xsd:element name="rwidg" type="xsd:string" nillable="true" default="FILL-IN"/>
+                                        <xsd:element name="lkey" type="xsd:boolean" nillable="true"/>
+                                      </xsd:sequence>
+                                    </xsd:complexType>
+                                  </xsd:element>
+                                </xsd:sequence>
+                              </xsd:complexType>
+                            </xsd:element>
+                          </xsd:sequence>
+                        </xsd:complexType>
+                      </xsd:element>
                     </xsd:sequence>
                   </xsd:complexType>
                 </xsd:element>
@@ -63,15 +208,72 @@
         <xsd:field xpath="rscre"/>
       </xsd:unique>
       <xsd:unique name="rapplrscrerlang" prodata:primaryIndex="true">
-        <xsd:selector xpath=".//Screentranslation"/>
+        <xsd:selector xpath=".//ScreensTranslation"/>
         <xsd:field xpath="rappl"/>
         <xsd:field xpath="rscre"/>
         <xsd:field xpath="rlang"/>
       </xsd:unique>
+      <xsd:unique name="rapplrscrerpage" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//Pages"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rscre"/>
+        <xsd:field xpath="rpage"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrscrerpagerlang" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//PagesTtranslations"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rscre"/>
+        <xsd:field xpath="rpage"/>
+        <xsd:field xpath="rlang"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrscrerinst">
+        <xsd:selector xpath=".//PageInstance"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rscre"/>
+        <xsd:field xpath="rinst"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrscrerorde" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//PageInstance"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rscre"/>
+        <xsd:field xpath="rorde"/>
+      </xsd:unique>
+      <xsd:unique name="rapplcobje">
+        <xsd:selector xpath=".//Pageobject"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="cobje"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrobje" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//Pageobject"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="robje"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrfiel" prodata:primaryIndex="true">
+        <xsd:selector xpath=".//Pagefielobject"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="rfiel"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrobjenfiel">
+        <xsd:selector xpath=".//Pagefielobject"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="robje"/>
+        <xsd:field xpath="nfiel"/>
+      </xsd:unique>
+      <xsd:unique name="rapplrobjenfieluniq">
+        <xsd:selector xpath=".//Pagefielobject"/>
+        <xsd:field xpath="rappl"/>
+        <xsd:field xpath="robje"/>
+        <xsd:field xpath="nfieluniq"/>
+      </xsd:unique>
     </xsd:element>
     <xsd:annotation>
       <xsd:appinfo>
-        <prodata:relation name="RELATION1" prodata:nested="true" prodata:parent="Screens" prodata:child="Screentranslation" prodata:relationFields="rscre,rscre"/>
+        <prodata:relation name="RELATION1" prodata:nested="true" prodata:parent="Screens" prodata:child="ScreensTranslation" prodata:relationFields="rscre,rscre"/>
+        <prodata:relation name="RELATION2" prodata:nested="true" prodata:parent="Screens" prodata:child="Pages" prodata:relationFields="rscre,rscre"/>
+        <prodata:relation name="RELATION3" prodata:nested="true" prodata:parent="Pages" prodata:child="PagesTtranslations" prodata:relationFields="rscre,rscre,rpage,rpage"/>
+        <prodata:relation name="RELATION4" prodata:nested="true" prodata:parent="Pages" prodata:child="PageInstance" prodata:relationFields="rscre,rscre,rpage,rpage"/>
+        <prodata:relation name="RELATION5" prodata:nested="true" prodata:parent="PageInstance" prodata:child="Pageobject" prodata:relationFields="robje,robje"/>
+        <prodata:relation name="RELATION6" prodata:nested="true" prodata:parent="Pageobject" prodata:child="Pagefielobject" prodata:relationFields="robje,robje"/>
       </xsd:appinfo>
     </xsd:annotation>
   </xsd:schema>
@@ -105,33 +307,1391 @@
     <cmenu xsi:nil="true"/>
     <lcach>false</lcach>
     <lresi>true</lresi>
-    <Screentranslation>
+    <ScreensTranslation>
       <rappl>DV</rappl>
       <rscre>1814</rscre>
       <rlang>DE</rlang>
       <ntitl>Gestion Client - new screen</ntitl>
       <ltranchec>false</ltranchec>
-    </Screentranslation>
-    <Screentranslation>
+    </ScreensTranslation>
+    <ScreensTranslation>
       <rappl>DV</rappl>
       <rscre>1814</rscre>
       <rlang>EN</rlang>
       <ntitl>Gestion Client - new screen</ntitl>
       <ltranchec>false</ltranchec>
-    </Screentranslation>
-    <Screentranslation>
+    </ScreensTranslation>
+    <ScreensTranslation>
       <rappl>DV</rappl>
       <rscre>1814</rscre>
       <rlang>FR</rlang>
       <ntitl>Gestion client</ntitl>
       <ltranchec>false</ltranchec>
-    </Screentranslation>
-    <Screentranslation>
+    </ScreensTranslation>
+    <ScreensTranslation>
       <rappl>DV</rappl>
       <rscre>1814</rscre>
       <rlang>NL</rlang>
       <ntitl>Beheer klant</ntitl>
       <ltranchec>false</ltranchec>
-    </Screentranslation>
+    </ScreensTranslation>
+    <Pages>
+      <rappl>DV</rappl>
+      <rscre>1814</rscre>
+      <rpage>2</rpage>
+      <ntitl>Adresse (  )</ntitl>
+      <epage/>
+      <ctypepage>N</ctypepage>
+      <ctypecomm/>
+      <PagesTtranslations>
+        <rappl>DV</rappl>
+        <rscre>1814</rscre>
+        <rpage>2</rpage>
+        <rlang>DE</rlang>
+        <ntitl>Adresse (  )</ntitl>
+        <ltranchec>false</ltranchec>
+      </PagesTtranslations>
+      <PagesTtranslations>
+        <rappl>DV</rappl>
+        <rscre>1814</rscre>
+        <rpage>2</rpage>
+        <rlang>EN</rlang>
+        <ntitl>Adresse (  )</ntitl>
+        <ltranchec>false</ltranchec>
+      </PagesTtranslations>
+      <PagesTtranslations>
+        <rappl>DV</rappl>
+        <rscre>1814</rscre>
+        <rpage>2</rpage>
+        <rlang>FR</rlang>
+        <ntitl>Adresse (  )</ntitl>
+        <ltranchec>false</ltranchec>
+      </PagesTtranslations>
+      <PagesTtranslations>
+        <rappl>DV</rappl>
+        <rscre>1814</rscre>
+        <rpage>2</rpage>
+        <rlang>NL</rlang>
+        <ntitl>Adres (  )</ntitl>
+        <ltranchec>false</ltranchec>
+      </PagesTtranslations>
+      <PageInstance>
+        <rappl>DV</rappl>
+        <rscre>1814</rscre>
+        <rinst>4</rinst>
+        <rorde>3</rorde>
+        <robje>2906</robje>
+        <ntitl/>
+        <idown>9</idown>
+        <rpage>2</rpage>
+        <esele/>
+        <nfieldownup/>
+        <lfiltfirs>true</lfiltfirs>
+        <crend>N</crend>
+        <irecomax xsi:nil="true"/>
+        <smap>isigncliid</smap>
+        <rordepare>1</rordepare>
+        <llabe>true</llabe>
+        <rinstrefr>0</rinstrefr>
+        <einst/>
+        <awidt>154.40</awidt>
+        <aheig>9.00</aheig>
+        <icolofore xsi:nil="true"/>
+        <ifont xsi:nil="true"/>
+        <arow xsi:nil="true"/>
+        <acolu xsi:nil="true"/>
+        <icoloupda xsi:nil="true"/>
+        <ifonttitl xsi:nil="true"/>
+        <icolotitl xsi:nil="true"/>
+        <rinstgrou>0</rinstgrou>
+        <lfiltfirsrequ>false</lfiltfirsrequ>
+        <cflag/>
+        <rtypeobjesub>N</rtypeobjesub>
+        <rapplscreextr/>
+        <cscreextr/>
+        <ctypescreextr/>
+        <lbatc>false</lbatc>
+        <Pageobject>
+          <rappl>DV</rappl>
+          <robje>2906</robje>
+          <cobje>brSignCli_GE1_2</cobje>
+          <nobje/>
+          <ntitl>Gestion client - browse adresse</ntitl>
+          <rtypeobje>B</rtypeobje>
+          <rtypeobjesub>N</rtypeobjesub>
+          <rpart>1</rpart>
+          <esele/>
+          <esort/>
+          <irecomax xsi:nil="true"/>
+          <dcrea>2006-12-27</dcrea>
+          <tcrea>1419</tcrea>
+          <dmodi>2010-03-29</dmodi>
+          <tmodi>1332</tmodi>
+          <eobje/>
+          <cflag/>
+          <rusercrea>geegun</rusercrea>
+          <rusermodi>mfprev</rusermodi>
+          <rapplquer/>
+          <cscrequer/>
+          <rinstquer>0</rinstquer>
+          <rappldoma/>
+          <cscredoma/>
+          <rinstdoma>0</rinstdoma>
+          <Pagefielobject>
+            <rfiel>46455</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.cBtePostale</nfiel>
+            <nfieluniq>cBtePostale</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>7.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>7</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46456</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.cDenom</nfiel>
+            <nfieluniq>cDenom</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>4.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform>x(30)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>4</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46457</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.cNumPorte</nfiel>
+            <nfieluniq>cNumPorte</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>6.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>6</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46458</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.cRue</nfiel>
+            <nfieluniq>cRue</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>5.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform>x(30)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>5</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46459</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>cType</nfiel>
+            <nfieluniq>cType</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>3.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe>Type</nlabe>
+            <nform>X(30)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>3</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46460</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.iAdrCliId</nfiel>
+            <nfieluniq>iAdrCliId</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>1.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>1</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46461</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.iCdPostId</nfiel>
+            <nfieluniq>iCdPostId</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>9.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>9</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46462</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.iPaysId</nfiel>
+            <nfieluniq>iPaysId</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>10.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>10</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46463</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.iSignCliId</nfiel>
+            <nfieluniq>iSignCliId</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>2.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>2</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46464</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.iTypId</nfiel>
+            <nfieluniq>iTypId</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>11.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>11</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46465</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>AdrCli.lDefaut</nfiel>
+            <nfieluniq>lDefaut</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>8.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe xsi:nil="true"/>
+            <nform xsi:nil="true"/>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp xsi:nil="true"/>
+            <eviewas xsi:nil="true"/>
+            <cdata xsi:nil="true"/>
+            <ninit xsi:nil="true"/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>8</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46466</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>tCdPost_cCdLog</nfiel>
+            <nfieluniq>tCdPost_cCdLog</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>12.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe>$Code Logique</nlabe>
+            <nform>x(10)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp>Code correspond au libellé. 
+ Ce code peut être accessible à l&apos;</nhelp>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>12</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46467</rfiel>
+            <rappl>DV</rappl>
+            <robje>2906</robje>
+            <nfiel>tCdPost_cLibLog</nfiel>
+            <nfieluniq>tCdPost_cLibLog</nfieluniq>
+            <arow>0.00</arow>
+            <acolu>13.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe>Commune</nlabe>
+            <nform>x(30)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp>Libellé correspondant au code de la traduction destiné aux util</nhelp>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>13</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+        </Pageobject>
+      </PageInstance>
+      <PageInstance>
+        <rappl>DV</rappl>
+        <rscre>1814</rscre>
+        <rinst>5</rinst>
+        <rorde>4</rorde>
+        <robje>2912</robje>
+        <ntitl/>
+        <idown>9</idown>
+        <rpage>2</rpage>
+        <esele/>
+        <nfieldownup/>
+        <lfiltfirs>false</lfiltfirs>
+        <crend>N</crend>
+        <irecomax xsi:nil="true"/>
+        <smap>iAdrCliId</smap>
+        <rordepare>3</rordepare>
+        <llabe>true</llabe>
+        <rinstrefr>0</rinstrefr>
+        <einst/>
+        <awidt>154.40</awidt>
+        <aheig>7.43</aheig>
+        <icolofore xsi:nil="true"/>
+        <ifont xsi:nil="true"/>
+        <arow xsi:nil="true"/>
+        <acolu xsi:nil="true"/>
+        <icoloupda xsi:nil="true"/>
+        <ifonttitl xsi:nil="true"/>
+        <icolotitl xsi:nil="true"/>
+        <rinstgrou>0</rinstgrou>
+        <lfiltfirsrequ>false</lfiltfirsrequ>
+        <cflag/>
+        <rtypeobjesub>N</rtypeobjesub>
+        <rapplscreextr/>
+        <cscreextr/>
+        <ctypescreextr/>
+        <lbatc>false</lbatc>
+        <Pageobject>
+          <rappl>DV</rappl>
+          <robje>2912</robje>
+          <cobje>viSignCli_GE4_2</cobje>
+          <nobje/>
+          <ntitl>Gestion client - adresse viewer</ntitl>
+          <rtypeobje>V</rtypeobje>
+          <rtypeobjesub>N</rtypeobjesub>
+          <rpart>1</rpart>
+          <esele/>
+          <esort/>
+          <irecomax xsi:nil="true"/>
+          <dcrea>2006-12-27</dcrea>
+          <tcrea>1521</tcrea>
+          <dmodi>2013-03-05</dmodi>
+          <tmodi>1248</tmodi>
+          <eobje/>
+          <cflag/>
+          <rusercrea>geegun</rusercrea>
+          <rusermodi>yvut</rusermodi>
+          <rapplquer/>
+          <cscrequer/>
+          <rinstquer>0</rinstquer>
+          <rappldoma/>
+          <cscredoma/>
+          <rinstdoma>0</rinstdoma>
+          <Pagefielobject>
+            <rfiel>46605</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.cBtePostale</nfiel>
+            <nfieluniq>cBtePostale</nfieluniq>
+            <arow>3.57</arow>
+            <acolu>78.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>true</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Boite</nlabe>
+            <nform>x(6)</nform>
+            <awidt>13.00</awidt>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>4</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46606</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.cDenom</nfiel>
+            <nfieluniq>cDenom</nfieluniq>
+            <arow>1.29</arow>
+            <acolu>24.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>true</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Dénomination</nlabe>
+            <nform>x(60)</nform>
+            <awidt>67.00</awidt>
+            <aheig>1.00</aheig>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>1</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46607</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.cNumPorte</nfiel>
+            <nfieluniq>cNumPorte</nfieluniq>
+            <arow>3.57</arow>
+            <acolu>24.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>true</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Numéro</nlabe>
+            <nform>x(8)</nform>
+            <awidt>15.50</awidt>
+            <aheig>1.00</aheig>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit/>
+            <lmand>true</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>3</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46608</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.cRue</nfiel>
+            <nfieluniq>cRue</nfieluniq>
+            <arow>2.43</arow>
+            <acolu>24.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>true</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Rue</nlabe>
+            <nform>x(60)</nform>
+            <awidt>67.00</awidt>
+            <aheig>1.00</aheig>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit/>
+            <lmand>true</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>2</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46609</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.iAdrCliId</nfiel>
+            <nfieluniq>iAdrCliId</nfieluniq>
+            <arow>3.86</arow>
+            <acolu>157.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Adresse RescHum Id</nlabe>
+            <nform>-&gt;,&gt;&gt;&gt;,&gt;&gt;9</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit>0</ninit>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey>S</ckey>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab xsi:nil="true"/>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46610</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.iCdPostId</nfiel>
+            <nfieluniq>iCdPostId</nfieluniq>
+            <arow>7.29</arow>
+            <acolu>157.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Code Postal</nlabe>
+            <nform>-&gt;,&gt;&gt;&gt;,&gt;&gt;9</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit>0</ninit>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab xsi:nil="true"/>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46611</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.iPaysId</nfiel>
+            <nfieluniq>iPaysId</nfieluniq>
+            <arow>8.43</arow>
+            <acolu>157.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Pays</nlabe>
+            <nform>-&gt;,&gt;&gt;&gt;,&gt;&gt;9</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit>0</ninit>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab xsi:nil="true"/>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46612</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.iSignCliId</nfiel>
+            <nfieluniq>iSignCliId</nfieluniq>
+            <arow>6.14</arow>
+            <acolu>157.00</acolu>
+            <ldisp>false</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Signalétique Client Id</nlabe>
+            <nform>-&gt;,&gt;&gt;&gt;,&gt;&gt;9</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata xsi:nil="true"/>
+            <ninit>0</ninit>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey>C</ckey>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab xsi:nil="true"/>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46613</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.iTypId</nfiel>
+            <nfieluniq>iTypId</nfieluniq>
+            <arow>7.00</arow>
+            <acolu>24.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Type</nlabe>
+            <nform>-&gt;,&gt;&gt;&gt;,&gt;&gt;9</nform>
+            <awidt>21.60</awidt>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas>COMBO-BOX LIST-ITEM-PAIRS sort</eviewas>
+            <cdata xsi:nil="true"/>
+            <ninit>0</ninit>
+            <lmand>true</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>7</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>COMBO-BOX</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46614</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>AdrCli.lDefaut</nfiel>
+            <nfieluniq>lDefaut</nfieluniq>
+            <arow>7.00</arow>
+            <acolu>48.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>true</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Défaut</nlabe>
+            <nform>oui/non</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas>VIEW-AS TOGGLE-BOX</eviewas>
+            <cdata xsi:nil="true"/>
+            <ninit>non</ninit>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>8</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>TOGGLE-BOX</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46615</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>tCdPost_cCdLog</nfiel>
+            <nfieluniq>tCdPost_cCdLog</nfieluniq>
+            <arow>4.71</arow>
+            <acolu>24.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>true</lmodi>
+            <lcrea>true</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Code Postal</nlabe>
+            <nform>x(10)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>true</lmand>
+            <lzoom>true</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom>DV</rapplzoom>
+            <cscrezoom>witCdPost_RE</cscrezoom>
+            <sassi>iCdPostId=iCdInt,tCdPost_cCdLog=cCdLog,tCdPost_cLiblog=cLibLog,iPaysId=iCdPaysId,tPays_cCdLog=tPays_cCdLog,tPays_cLibLog=tPays_cLibLog,PERSISTENT</sassi>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>5</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46616</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>tCdPost_cLibLog</nfiel>
+            <nfieluniq>tCdPost_cLibLog</nfieluniq>
+            <arow>4.71</arow>
+            <acolu>48.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>false</lassi>
+            <nlabe/>
+            <nform>x(30)</nform>
+            <awidt>43.00</awidt>
+            <aheig>1.00</aheig>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>true</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab xsi:nil="true"/>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46617</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>tPays_cCdLog</nfiel>
+            <nfieluniq>tPays_cCdLog</nfieluniq>
+            <arow>5.86</arow>
+            <acolu>24.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>true</lassi>
+            <nlabe>Pays</nlabe>
+            <nform>x(10)</nform>
+            <awidt xsi:nil="true"/>
+            <aheig xsi:nil="true"/>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>false</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab>6</iordetab>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+          <Pagefielobject>
+            <rfiel>46618</rfiel>
+            <rappl>DV</rappl>
+            <robje>2912</robje>
+            <nfiel>tPays_cLibLog</nfiel>
+            <nfieluniq>tPays_cLibLog</nfieluniq>
+            <arow>5.86</arow>
+            <acolu>48.00</acolu>
+            <ldisp>true</ldisp>
+            <lmodi>false</lmodi>
+            <lcrea>false</lcrea>
+            <lassi>true</lassi>
+            <nlabe/>
+            <nform>x(30)</nform>
+            <awidt>43.00</awidt>
+            <aheig>1.00</aheig>
+            <ifont xsi:nil="true"/>
+            <nhelp/>
+            <eviewas/>
+            <cdata>CHARACTER</cdata>
+            <ninit/>
+            <lmand>false</lmand>
+            <lzoom>false</lzoom>
+            <acoluzoom xsi:nil="true"/>
+            <rapplzoom/>
+            <cscrezoom/>
+            <sassi/>
+            <lfilt>true</lfilt>
+            <cfilt>AUTOMATIC</cfilt>
+            <ckey/>
+            <efiel/>
+            <ilenglabe>16</ilenglabe>
+            <lsortinit>false</lsortinit>
+            <cflag/>
+            <iordetab xsi:nil="true"/>
+            <lscre>true</lscre>
+            <lrepo>true</lrepo>
+            <lexpo>true</lexpo>
+            <lauto>false</lauto>
+            <nfielkey/>
+            <ldictinit>true</ldictinit>
+            <rwidg>FILL-IN</rwidg>
+            <lkey>false</lkey>
+          </Pagefielobject>
+        </Pageobject>
+      </PageInstance>
+    </Pages>
   </Screens>
 </ProDataSet>
